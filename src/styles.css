@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f6caca;
+}
+
+.App {
+  font-family: Times;
+  /* text-align: center; */
+}
+
+.headline {
+  margin: 2em;
+}
+
+.headline h1 {
+  text-align: center;
+  color: #0a014f;
+}
+
+.event-container {
+  margin-bottom: 4em;
+}
+
+.event {
+  background-color: #fae8eb;
+  width: 70%;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 1em;
+  box-shadow: 5px 2px 3px #555, 2px 3px 5px #aeaeae;
+}
+
+.event-title {
+  display: flex;
+}
+
+.event-title img {
+  margin: 1em;
+}
+
+.heading_author {
+  padding: 2em;
+}
+
+.heading a {
+  text-decoration: none;
+  color: #f18f01;
+}
+
+.heading a:hover {
+  color: #cd9fcc;
+}
+
+.summary {
+  padding: 1em;
+}
+
+.x {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 0.5em;
+  color: #f18f01;
+}
